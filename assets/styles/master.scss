@@ -41,7 +41,7 @@
                         text-transform: capitalize;
                         font-size: 1.4rem;
                         color: black;
-                        transition: all .4s ease;
+                        transition: .4s ease;
 
                         &:hover {
                             border-bottom: 3px solid black;
@@ -74,6 +74,13 @@
                                 >li {
                                     border-bottom: 1px solid gray;
                                     width: 200px;
+                                    transition: .4s;
+                                    &:hover{
+                                        border-bottom: 2px solid gray !important;
+                                        >a{
+                                            color: gray;
+                                        }
+                                    }
 
                                     &:last-child {
                                         border-bottom: none;
@@ -83,6 +90,16 @@
                                         text-transform: capitalize;
                                         color: black;
                                         text-decoration: none;
+                                    }
+                                }
+                            }
+                            >.socials-menusm{
+                                >a{
+                                    color: black;
+                                    transition: all .4s;
+
+                                    &:hover{
+                                        color: gray;
                                     }
                                 }
                             }
