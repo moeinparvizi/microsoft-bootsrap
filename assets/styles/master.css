@@ -44,6 +44,37 @@
 }
 #main > header > #menu > .header-icons > i {
   width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main > header > #menu > .header-icons > i:nth-of-type(3) {
+  cursor: pointer;
+}
+#main > header > #menu > .header-icons > i:nth-of-type(3) > .menu-sm-click {
+  position: fixed;
+  top: 0;
+  background-color: white;
+  opacity: 0.7;
+  height: 100vh;
+  transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+#main > header > #menu > .header-icons > i:nth-of-type(3) > .menu-sm-click > ul {
+  padding: 20px;
+}
+#main > header > #menu > .header-icons > i:nth-of-type(3) > .menu-sm-click > ul > li {
+  border-bottom: 1px solid gray;
+  width: 200px;
+}
+#main > header > #menu > .header-icons > i:nth-of-type(3) > .menu-sm-click > ul > li:last-child {
+  border-bottom: none;
+}
+#main > header > #menu > .header-icons > i:nth-of-type(3) > .menu-sm-click > ul > li > a {
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  color: black;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=master.css.map */
