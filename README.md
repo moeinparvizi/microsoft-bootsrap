@@ -27,11 +27,11 @@ moein parvizi
     <a href="https://github.com/moeinparvizi/microsoft-bootstrap"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://moeinparvizi.github.io/microsoft-bootstrap/">View Demo</a>
+    <a href="https://moeinparvizi.github.io/microsoft-bootsrap/">View Demo</a>
     ·
-    <a href="https://github.com/moeinparvizi/microsoft-bootstrap/issues">Report Bug</a>
+    <a href="https://github.com/moeinparvizi/microsoft-bootsrap/issues">Report Bug</a>
     ·
-    <a href="https://github.com/moeinparvizi/microsoft-bootstrap/issues">Request Feature</a>
+    <a href="https://github.com/moeinparvizi/microsoft-bootsrap/issues">Request Feature</a>
   </p>
 </div>
 
@@ -87,7 +87,7 @@ with js
 
 moeinparvizi - [linkedin](https://linkedin.com/in/moeinparvizi2002) - giventulip@gmail.com
 
-Project Link: [https://github.com/moeinparvizi/rocket-loading](https://github.com/moeinparvizi/microsoft-bootstrap)
+Project Link: [https://github.com/moeinparvizi/microsoft-bootsrap](https://github.com/moeinparvizi/microsoft-bootsrap)
 
 <p align="right">(<a href="#reaYour Namedme-top">back to top</a>)</p>
 
