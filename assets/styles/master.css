@@ -296,7 +296,6 @@ footer > div > div:nth-of-type(1) > .footer-all > a:hover {
   color: black;
 }
 footer > div > .end {
-  border: 1px solid red;
   justify-content: space-between;
   align-items: center;
 }
