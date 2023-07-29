@@ -5,9 +5,6 @@
 #main {
   width: 100%;
 }
-#main > header {
-  border: 1px solid red;
-}
 #main > header > #menu > ul {
   width: 70%;
 }
@@ -37,7 +34,7 @@
   text-transform: capitalize;
   font-size: 1.4rem;
   color: black;
-  transition: 0.4s ease;
+  transition: 0.4s;
 }
 #main > header > #menu > ul > li > a:hover {
   border-bottom: 3px solid black;
@@ -54,6 +51,7 @@
 }
 #main > header > #menu > .header-icons > i:nth-of-type(3) > .menu-sm-click {
   position: fixed;
+  z-index: 99;
   top: 0;
   background-color: white;
   opacity: 0.7;
@@ -85,10 +83,197 @@
 }
 #main > header > #menu > .header-icons > i:nth-of-type(3) > .menu-sm-click > .socials-menusm > a {
   color: black;
-  transition: all 0.4s;
+  transition: 0.4s;
 }
 #main > header > #menu > .header-icons > i:nth-of-type(3) > .menu-sm-click > .socials-menusm > a:hover {
   color: gray;
+}
+#main > header > .slide > figure {
+  width: 100%;
+  position: relative;
+}
+#main > header > .slide > figure > img {
+  width: 100%;
+}
+#main > header > .slide > figure > figcaption {
+  opacity: 0.7;
+  background-color: blue;
+  position: absolute;
+  top: 71%;
+  left: 10%;
+  width: 25%;
+  transition: all 0.6s ease;
+}
+#main > header > .slide > figure > figcaption > h1 {
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+#main > header > .slide > figure > figcaption:hover {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#main > header > .slide > figure > figcaption:hover::after {
+  content: "filan";
+  color: white;
+  font-size: 2rem;
+  padding: 20px;
+}
+#main > .c {
+  border: 1px solid rgb(238, 238, 238);
+  margin-top: 50px;
+}
+#main > .c > .intro {
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#main > .c .cards > div {
+  margin: 15px 0;
+  background-color: rgb(238, 238, 238);
+  padding: 10px;
+}
+#main > .c .cards > div > figure > img {
+  width: 100%;
+}
+#main > .c .cards > div > figure > figcaption > h3 {
+  color: black;
+  margin-top: 5px;
+  text-transform: capitalize;
+}
+#main > .c .cards > div > figure > figcaption > p {
+  font-size: 1.3rem;
+}
+#main > .c .cards > div > figure > figcaption > a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: blue;
+  padding: 10px;
+  border-right: 2px solid blue;
+  border-bottom: 2px solid blue;
+  position: relative;
+}
+#main > .c .cards > div > figure > figcaption > a::after {
+  content: "";
+  transition: 1s;
+  width: 0;
+  height: 2px;
+  background-color: blue;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#main > .c .cards > div > figure > figcaption > a::before {
+  content: "";
+  background-color: blue;
+  transition: 1s 1s;
+  width: 2px;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#main > .c .cards > div > figure > figcaption > a:hover::after {
+  width: 100%;
+}
+#main > .c .cards > div > figure > figcaption > a:hover::before {
+  height: 100%;
+}
+#main > .ad1 {
+  width: 100%;
+  position: relative;
+}
+#main > .ad1 > .ad-close {
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  z-index: 10;
+}
+#main > .ad1 > figure {
+  position: relative;
+}
+#main > .ad1 > figure > img {
+  width: 100%;
+}
+#main > .ad1 > figure > figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 15px;
+}
+#main > .ad1 > figure > figcaption > h4 {
+  text-transform: capitalize;
+}
+#main > .ad1 > figure > figcaption > a {
+  text-transform: capitalize;
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  text-decoration: none;
+  transition: 0.4s;
+}
+#main > .ad1 > figure > figcaption > a:hover {
+  background-color: rgb(66, 66, 66);
+}
+#main > .ad1 > figure > figcaption > p {
+  color: black;
+}
+@media screen and (min-with: 767px) {
+  #main > .ad1 > figure > figcaption {
+    background-color: rgba(255, 255, 255, 0.664);
+  }
+}
+#main > .ad2 {
+  width: 100%;
+  position: relative;
+}
+#main > .ad2 > .ad-close {
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  z-index: 10;
+}
+#main > .ad2 > figure {
+  position: relative;
+}
+#main > .ad2 > figure > img {
+  width: 100%;
+}
+#main > .ad2 > figure > figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 15px;
+}
+#main > .ad2 > figure > figcaption > h4 {
+  text-transform: capitalize;
+  color: white;
+}
+#main > .ad2 > figure > figcaption > a {
+  text-transform: capitalize;
+  text-align: center;
+  color: black;
+  background-color: white;
+  padding: 10px;
+  text-decoration: none;
+  transition: 0.4s;
+}
+#main > .ad2 > figure > figcaption > a:hover {
+  background-color: rgb(177, 177, 177);
+}
+#main > .ad2 > figure > figcaption > p {
+  color: white;
+}
+@media screen and (min-with: 767px) {
+  #main > .ad2 > figure > figcaption {
+    background-color: rgba(255, 255, 255, 0.664);
+  }
 }
 
 /*# sourceMappingURL=master.css.map */
