@@ -119,11 +119,6 @@
                         color: black;
                     }
                 }
-                @media screen and (min-with:767px) {
-                    >figcaption{
-                        background-color: rgba(255, 255, 255, 0.664);
-                    }
-                }
             }
     }
 
@@ -165,11 +160,6 @@
                     }
                     >p{
                         color: white;
-                    }
-                }
-                @media screen and (min-with:767px) {
-                    >figcaption{
-                        background-color: rgba(255, 255, 255, 0.664);
                     }
                 }
             }

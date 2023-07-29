@@ -157,3 +157,56 @@
         @include ad2;
     }
 }
+
+footer{
+    background-color: rgb(177, 177, 177);
+    >div{
+        >div:nth-of-type(1){
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+            >.footer-all{
+                display: flex;
+                flex-direction: column;
+                margin: 0 auto;
+                padding: 5px;
+                >h5{
+                    font-size: 1.7rem;
+                    text-align: center;
+                    color: black;
+                }
+                >a{
+                    text-decoration: none;
+                    text-align: center;
+                    color: rgb(41, 41, 41);
+                    font-size: 1.5rem;
+                    &:hover{
+                        color: black;
+                    }
+                }
+            }
+
+        }
+        >.end{
+            border: 1px solid red;
+            justify-content: space-between;
+            align-items: center;
+            >div:last-child{
+                >ul{
+                    flex-wrap: wrap;
+                    >li{
+                        padding: 0 20px;
+                        >a{
+                            text-decoration: none;
+                            color: black;
+                            &:hove{
+                                color: rgb(39, 39, 39);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

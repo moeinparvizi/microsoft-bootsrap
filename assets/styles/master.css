@@ -224,11 +224,6 @@
 #main > .ad1 > figure > figcaption > p {
   color: black;
 }
-@media screen and (min-with: 767px) {
-  #main > .ad1 > figure > figcaption {
-    background-color: rgba(255, 255, 255, 0.664);
-  }
-}
 #main > .ad2 {
   width: 100%;
   position: relative;
@@ -270,10 +265,53 @@
 #main > .ad2 > figure > figcaption > p {
   color: white;
 }
-@media screen and (min-with: 767px) {
-  #main > .ad2 > figure > figcaption {
-    background-color: rgba(255, 255, 255, 0.664);
-  }
+
+footer {
+  background-color: rgb(177, 177, 177);
+}
+footer > div > div:nth-of-type(1) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+footer > div > div:nth-of-type(1) > .footer-all {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 5px;
+}
+footer > div > div:nth-of-type(1) > .footer-all > h5 {
+  font-size: 1.7rem;
+  text-align: center;
+  color: black;
+}
+footer > div > div:nth-of-type(1) > .footer-all > a {
+  text-decoration: none;
+  text-align: center;
+  color: rgb(41, 41, 41);
+  font-size: 1.5rem;
+}
+footer > div > div:nth-of-type(1) > .footer-all > a:hover {
+  color: black;
+}
+footer > div > .end {
+  border: 1px solid red;
+  justify-content: space-between;
+  align-items: center;
+}
+footer > div > .end > div:last-child > ul {
+  flex-wrap: wrap;
+}
+footer > div > .end > div:last-child > ul > li {
+  padding: 0 20px;
+}
+footer > div > .end > div:last-child > ul > li > a {
+  text-decoration: none;
+  color: black;
+}
+footer > div > .end > div:last-child > ul > li > a:hove {
+  color: rgb(39, 39, 39);
 }
 
 /*# sourceMappingURL=master.css.map */
